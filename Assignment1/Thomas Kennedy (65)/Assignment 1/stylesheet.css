@@ -1,0 +1,268 @@
+/*INDEX PAGE*/
+
+
+/*EXAMPLE CODE*/
+ul {
+    font-family:sans-serif;
+    list-style-type: none;
+    background-color: white;
+    float:center; /*sets the position to the right or the left*/
+    width: 50%;  /*sets the width of how much it spans the page;*/
+    border-right: 1px solid white;
+}
+
+/*HEADER*/
+
+h1 {
+  font-family: sans-serif;
+  text-align: center
+}
+
+#head1{
+  background-color: #b3fc52;
+  margin: 15px;
+  padding: 15px;
+}
+
+body {
+  background-image: url("bg.jpg");
+}
+
+/*NAVIGATION BAR*/
+
+#menu{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: auto;
+  height: 100px;
+  background-color: #b3fc52;
+  margin: 15px;
+  padding: 10px;
+}
+
+/*REPRESENTS NAV CONTENTS*/
+
+#menu li a{
+  font-family:sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  padding: 14px;
+}
+
+/*WHEN MOUSE IS HOVERED OVER BUTTONS*/
+
+#menu li a:hover{
+  color: white;
+  background-color: black;
+}
+
+#menu li{
+  float: left;
+}
+
+/*PLANS BOX CONTAINS OFFER TABLE IMAGE*/
+
+#plans {
+    width: 850px;
+    height: auto;
+    float: center;
+    background-color: grey;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border: 5px solid #b3fc52;
+}
+
+/*INTRODUCTION BOX WITH TITLE WELCOME TO WEBSITE*/
+
+#intro {
+    width: 900px;
+    height: 550px;
+    float: left;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid #B3FC52
+}
+
+/*DESIGNS USED FOR FOOTER*/
+
+#indexfooter {
+    height: 100px;
+    background-color: #B3FC52;
+    width: fill;
+    float: none;
+    clear: both;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+  text-align: right;
+}
+
+/*END OF INDEX PAGE*/
+
+/*START OF MUSIC PAGE*/
+
+h1 {
+  font-family: sans-serif;
+  text-align: center
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+}
+
+#myInput {
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+caption {
+  color: white;
+  text-align: left;
+}
+
+h4 {
+  color: white;
+}
+/*END OF MUSIC PAGE*/
+
+/*BEGINNING OF ABOUT PAGE*/
+
+#bioheader {
+    width: auto;
+    height: auto;
+    float: center;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.bheader {
+  width: 350px;
+  height: 300px;
+  margin: 15px;
+  padding: 10px;
+  float: center;
+  border: 2px solid #B3FC52;
+  background-color: #b3fc52;
+  text-align: right;
+}
+
+.bheader2 {
+  width: 350px;
+  height: 300px;
+  margin: 15px;
+  padding: 10px;
+  float: center;
+  border: 2px solid #B3FC52;
+  background-color: #b3fc52;
+  text-align: right;
+}
+
+.bheader3 {
+  width: 350px;
+  height: 300px;
+  margin: 15px;
+  padding: 10px;
+  float: center;
+  border: 2px solid #B3FC52;
+  background-color: #b3fc52;
+  text-align: right;
+}
+
+.bheader4 {
+  width: 350px;
+  height: 300px;
+  margin: 15px;
+  padding: 10px;
+  float: center;
+  border: 2px solid #B3FC52;
+  background-color: #b3fc52;
+  text-align: right;
+}
+
+h5 {
+  text-align: center;
+  color:white;
+  font-size: 50px;
+  border: 5px solid black;
+  background-color: black;
+}
+
+#footer {
+  margin: 15px;
+  padding: 10px;
+  width: auto;
+  height: 100px;
+  background-color: #b3fc52;
+}
+
+#featured {
+  width: 700px;
+  height: 500px;
+  background-color: grey;
+  margin: 15px;
+  padding: 15px;
+  border: 10px solid #B3FC52;
+}
+
+#references {
+    width: 850px;
+    height: auto;
+    float: center;
+    background-color: grey;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    border: 5px solid #b3fc52;
+}
+
+/*formatting for images on about page*/
+
+.im1 {
+  border: 5px solid black;
+}
+
+.im2 {
+  border: 5px solid black;
+}
+
+.im3 {
+  border: 5px solid black;
+}
+
+.im4 {
+  border: 5px solid black;
+}
+
+.im5 {
+  border: 5px solid black;
+}
+
+.im6 {
+  border: 5px solid black;
+}
